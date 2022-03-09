@@ -1,0 +1,49 @@
+body{
+    background: whitesmoke;
+  }
+  
+  
+  #mainbody{
+    margin-left: 40%;
+    margin-top: 2px;
+    background: linear-gradient(#eeaeca, #94bbe9);
+    width: 350px;
+    height: 450px;
+    border: solid 6px;
+    border-color: #708193;
+    border-radius: 12px;
+  }
+  #screen{
+    border-width: 5px;
+    margin-left: 18px;
+    width: 85%;
+    height: 4ipx;
+    margin-top: 13px;
+    border-color: #708193;
+    border-radius: 8px;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    pointer-events: none;
+  }
+  .but{
+    width: 248px;
+    height: 334px;
+    margin-left: 1px;
+  }
+  button{
+    width: 37px;
+    height: 45px;
+    margin-top: 16px;
+    background: linear-gradient(#22c1c3, #708193);
+    margin-left: 16px;
+    border: solid pink;
+    border-radius: 34px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  button:hover{
+    cursor: pointer;
+    background: linear-gradient(#eeaeca, #708193);
+    
+  }

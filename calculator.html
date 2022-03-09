@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <div id="mainbody">   
+      <div>
+          <input type="text" id="screen">
+      </div> 
+      <div class="but">
+          <div class="row">
+              <button value="C" onclick="clrdisp(this.value)">C</button>
+          </div>
+          <div class="row">
+              <button value="9" onclick="clk(this.value)">9</button>
+              <button value="8" onclick="clk(this.value)">8</button>
+              <button value="7" onclick="clk(this.value)">7</button>
+              <button value="/" onclick="clk(this.value)">/</button>
+          </div>
+          <div class="row">
+              <button value="4" onclick="clk(this.value)">4</button>
+              <button value="5" onclick="clk(this.value)">5</button>
+              <button value="6" onclick="clk(this.value)">6</button>
+              <button value="*" onclick="clk(this.value)">*</button>
+          </div>
+          <div class="row">
+              <button value="1" onclick="clk(this.value)">1</button>
+              <button value="2" onclick="clk(this.value)">2</button>
+              <button value="3" onclick="clk(this.value)">3</button>
+              <button value="-" onclick="clk(this.value)">-</button>
+          </div>
+          <div class="row">
+              <button value="0" onclick="clk(this.value)">0</button>
+              <button value="." onclick="clk(this.value)">.</button>
+              <button value="=" onclick="eql(this.value)">=</button>
+              <button value="+" onclick="clk(this.value)">+</button>
+      </div>
+  </div>
+  
+  </body>
+</html>
